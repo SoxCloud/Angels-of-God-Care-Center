@@ -1,2 +1,24 @@
-/WhatsApp Image 2026-07-25 at 9.11.36 AM (1).jpeg
-/WhatsApp Image 2026-07-25 at 9.11.36 AM.jpeg
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
