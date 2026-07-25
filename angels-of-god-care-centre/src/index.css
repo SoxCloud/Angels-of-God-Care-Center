@@ -1,0 +1,58 @@
+@import "tailwindcss";
+@import "@fontsource/poppins/300.css";
+@import "@fontsource/poppins/400.css";
+@import "@fontsource/poppins/500.css";
+@import "@fontsource/poppins/600.css";
+@import "@fontsource/poppins/700.css";
+@import "@fontsource/poppins/800.css";
+@import "@fontsource/nunito/400.css";
+@import "@fontsource/nunito/600.css";
+@import "@fontsource/nunito/700.css";
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+  --font-nunito: "Nunito", sans-serif;
+
+  --color-sky: #7dd3fc;
+  --color-sky-light: #bae6fd;
+  --color-sky-dark: #38bdf8;
+  --color-sunshine: #fde047;
+  --color-sunshine-light: #fef08a;
+  --color-sunshine-dark: #facc15;
+  --color-grass: #4ade80;
+  --color-grass-light: #86efac;
+  --color-grass-dark: #22c55e;
+  --color-cream: #fefce8;
+  --color-warm: #fef3c7;
+  --color-rose: #f43f5e;
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-nunito);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins);
+}
+
+.masonry-grid {
+  columns: 3;
+  gap: 1rem;
+}
+
+.masonry-grid > * {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .masonry-grid { columns: 2; }
+}
+
+@media (max-width: 640px) {
+  .masonry-grid { columns: 1; }
+}
