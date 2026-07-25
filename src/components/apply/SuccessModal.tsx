@@ -58,7 +58,7 @@ export default function SuccessModal({ show, childName }: SuccessModalProps) {
 
             <div className="space-y-3">
               <a
-                href={`https://wa.me/27123456789?text=${encodeURIComponent(waMsg)}`}
+                href={`https://wa.me/27838460529?text=${encodeURIComponent(waMsg)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full px-6 py-4 bg-green-500 hover:bg-green-600 text-white rounded-full font-bold font-nunito text-lg transition-colors shadow-lg"

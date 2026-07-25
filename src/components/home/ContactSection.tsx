@@ -33,7 +33,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-bold font-poppins text-gray-800">Call Us</h3>
-                  <p className="text-gray-600 text-sm">+27 12 345 6789</p>
+                  <p className="text-gray-600 text-sm">+27 83 846 0529</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">

@@ -33,7 +33,7 @@ export default function Footer() {
               <a href="mailto:shabalalalungile47@gmail.com" className="w-9 h-9 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-sky transition-colors">
                 <Mail className="w-4 h-4" />
               </a>
-              <a href="tel:+27123456789" className="w-9 h-9 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-grass transition-colors">
+              <a href="tel:+27838460529" className="w-9 h-9 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-grass transition-colors">
                 <Phone className="w-4 h-4" />
               </a>
             </div>
