@@ -1,11 +1,10 @@
 import { motion } from 'framer-motion'
 import { FileText } from 'lucide-react'
-import AdmissionForm from '../components/apply/AdmissionForm'
 
 export default function ApplyPage() {
   return (
     <div className="min-h-screen pt-24 pb-20 bg-gradient-to-b from-cream to-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -24,7 +23,23 @@ export default function ApplyPage() {
           </p>
         </motion.div>
 
-        <AdmissionForm />
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2 }}
+          className="bg-white rounded-3xl p-4 md:p-6 shadow-xl border border-gray-100"
+        >
+          <iframe
+            src="https://tally.so/embed/KYNdxD?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+            width="100%"
+            height="1450"
+            frameBorder="0"
+            marginHeight={0}
+            marginWidth={0}
+            title="Enrolment Form"
+            className="w-full"
+          />
+        </motion.div>
       </div>
     </div>
   )
