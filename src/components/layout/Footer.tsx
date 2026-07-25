@@ -30,7 +30,7 @@ export default function Footer() {
               Providing quality early childhood education in a warm, faith-based environment since 2012.
             </p>
             <div className="flex gap-3">
-              <a href="mailto:info@angelsofgodcare.co.za" className="w-9 h-9 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-sky transition-colors">
+              <a href="mailto:shabalalalungile47@gmail.com" className="w-9 h-9 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-sky transition-colors">
                 <Mail className="w-4 h-4" />
               </a>
               <a href="tel:+27123456789" className="w-9 h-9 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-grass transition-colors">
@@ -51,7 +51,7 @@ export default function Footer() {
             </h3>
             <div className="text-gray-400 text-sm leading-relaxed space-y-1">
               <p>12302 Mkhunya Street</p>
-              <p>Palmridge Ext 1</p>
+              <p>Palmridge Ext 7</p>
               <p>Palmridge 1458</p>
             </div>
           </motion.div>

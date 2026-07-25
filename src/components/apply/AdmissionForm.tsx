@@ -287,7 +287,7 @@ export default function AdmissionForm() {
               </div>
               <div>
                 <p className="font-semibold text-gray-800 mb-1">Information Officer</p>
-                <p>For data requests or complaints, contact: info@angelsofgodcare.co.za / 12302 Mkhunya Street, Palmridge.</p>
+                <p>For data requests or complaints, contact: shabalalalungile47@gmail.com / 12302 Mkhunya Street, Palmridge.</p>
               </div>
               <div>
                 <p className="mb-1 font-semibold text-gray-800">Declaration</p>

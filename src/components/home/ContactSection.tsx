@@ -24,7 +24,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-bold font-poppins text-gray-800">Our Address</h3>
-                  <p className="text-gray-600 text-sm">12302 Mkhunya Street<br />Palmridge Ext 1<br />Palmridge 1458</p>
+                  <p className="text-gray-600 text-sm">12302 Mkhunya Street<br />Palmridge Ext 7<br />Palmridge 1458</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -42,7 +42,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-bold font-poppins text-gray-800">Email</h3>
-                  <p className="text-gray-600 text-sm">info@angelsofgodcare.co.za</p>
+                  <p className="text-gray-600 text-sm">shabalalalungile47@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">

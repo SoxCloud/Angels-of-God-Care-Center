@@ -33,12 +33,12 @@ export default function PrivacyModal({ show, onClose }: { show: boolean; onClose
               </button>
             </div>
             <div className="text-sm text-gray-600 space-y-3 font-nunito">
-              <p><strong>1. Who we are</strong><br />Angels of God Care Centre, 12302 Mkhunya Street, Palmridge Ext 1, Palmridge 1458.</p>
+              <p><strong>1. Who we are</strong><br />Angels of God Care Centre, 12302 Mkhunya Street, Palmridge Ext 7, Palmridge 1458.</p>
               <p><strong>2. What we collect</strong><br />We collect personal information including names, contact details, medical information, and family information required for the safe care of your child.</p>
               <p><strong>3. Purpose</strong><br />Your data is used solely for enrolment processing, communication, emergency contact, and regulatory compliance.</p>
               <p><strong>4. Sharing</strong><br />We do not sell or share your data with third parties except where required by law or with your explicit consent.</p>
               <p><strong>5. Retention</strong><br />Records are kept for the duration of enrolment plus 3 years, after which they are securely destroyed.</p>
-              <p><strong>6. Your rights</strong><br />You may request access to, correction of, or deletion of your data at any time by contacting our Information Officer at info@angelsofgodcare.co.za.</p>
+              <p><strong>6. Your rights</strong><br />You may request access to, correction of, or deletion of your data at any time by contacting our Information Officer at shabalalalungile47@gmail.com.</p>
               <p><strong>7. Complaints</strong><br />You have the right to lodge a complaint with the Information Regulator (South Africa) at enquiries@inforegulator.org.za.</p>
               <p><strong>8. Security</strong><br />We implement appropriate technical and organizational measures to protect your personal information.</p>
             </div>

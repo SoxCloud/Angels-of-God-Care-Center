@@ -67,7 +67,6 @@ export const schoolRules = [
 
 export const stats = [
   { label: 'Years of Excellence', value: 12, suffix: '+' },
-  { label: 'Happy Children', value: 150, suffix: '+' },
-  { label: 'Qualified Staff', value: 15, suffix: '' },
+  { label: 'Qualified Staff', value: 8, suffix: '' },
   { label: 'Parents Satisfied', value: 98, suffix: '%' },
 ]
