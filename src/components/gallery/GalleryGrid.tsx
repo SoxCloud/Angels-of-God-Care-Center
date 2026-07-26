@@ -31,7 +31,7 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
           >
             <img
               src={img.src}
-              alt={img.alt}
+              alt="Gallery image"
               loading="lazy"
               className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
             />

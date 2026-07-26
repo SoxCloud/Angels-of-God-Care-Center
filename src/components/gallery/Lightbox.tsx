@@ -49,11 +49,10 @@ export default function Lightbox({ images, currentIndex, onClose, onPrev, onNext
         >
           <img
             src={current.src}
-            alt={current.alt}
+            alt="Gallery image"
             className="max-w-full max-h-[85vh] object-contain rounded-2xl"
           />
           <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-6 rounded-b-2xl">
-            <p className="text-white font-nunito text-lg">{current.alt}</p>
             <span className="text-white/70 text-sm">{current.category}</span>
           </div>
         </motion.div>

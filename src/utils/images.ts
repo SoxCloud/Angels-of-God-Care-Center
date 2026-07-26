@@ -1,11 +1,5 @@
 import type { GalleryImage } from '../types'
 
-function nameFromPath(path: string): string {
-  const segments = path.replace(/\\/g, '/').split('/')
-  const file = segments[segments.length - 1]
-  return file.replace(/\.[^.]+$/, '').replace(/[-_]/g, ' ')
-}
-
 function titleCase(s: string): string {
   return s.replace(/\b\w/g, (c) => c.toUpperCase())
 }
@@ -34,7 +28,7 @@ export function getGalleryImages(): GalleryImage[] {
     images.push({
       id: id++,
       src: module.default,
-      alt: titleCase(nameFromPath(filepath)),
+      alt: `${category} photo`,
       category,
     })
   }
