@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react'
 import { motion } from 'framer-motion'
 import { Camera } from 'lucide-react'
+import SEO from '../components/seo/SEO'
 import CategoryFilter from '../components/gallery/CategoryFilter'
 import GalleryGrid from '../components/gallery/GalleryGrid'
 import { getGalleryImages, getAllCategories } from '../utils/images'
@@ -16,6 +17,11 @@ export default function GalleryPage() {
 
   return (
     <div className="min-h-screen pt-24 pb-20">
+      <SEO
+        title="Gallery"
+        description="Browse photos of children learning, playing, and growing at Angels of God Care Centre in Palmridge."
+        canonical="/gallery"
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

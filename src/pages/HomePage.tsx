@@ -1,3 +1,4 @@
+import SEO from '../components/seo/SEO'
 import Hero from '../components/home/Hero'
 import Welcome from '../components/home/Welcome'
 import WhyChooseUs from '../components/home/WhyChooseUs'
@@ -11,6 +12,11 @@ import ContactSection from '../components/home/ContactSection'
 export default function HomePage() {
   return (
     <>
+      <SEO
+        title="Home"
+        description="A nurturing, faith-based preschool in Palmridge providing quality early childhood education in a safe, loving environment since 2012."
+        canonical="/"
+      />
       <Hero />
       <Welcome />
       <WhyChooseUs />

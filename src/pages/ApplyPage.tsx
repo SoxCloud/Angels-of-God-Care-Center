@@ -1,9 +1,15 @@
 import { motion } from 'framer-motion'
 import { FileText } from 'lucide-react'
+import SEO from '../components/seo/SEO'
 
 export default function ApplyPage() {
   return (
     <div className="min-h-screen pt-24 pb-20 bg-gradient-to-b from-cream to-white">
+      <SEO
+        title="Enrol Your Child"
+        description="Apply online to enrol your child at Angels of God Care Centre. Complete our simple admission form to begin your child's learning journey."
+        canonical="/apply"
+      />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
