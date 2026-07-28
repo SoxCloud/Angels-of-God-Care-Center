@@ -60,13 +60,13 @@ export default function ContactSection() {
           <AnimatedSection direction="right">
             <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-100 h-[300px] lg:h-full min-h-[300px]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580!2d28.1567596!3d-26.4032635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e951d08671d5e85%3A0x8daa0d4652035a63!2s12296+Mkunya+St,+Palm+Ridge,+Katlehong,+1488!5e0!3m2!1sen!2sza!4v1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2722.0981496204186!2d28.15418467421183!3d-26.403258672108244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e951d08671d5e85%3A0x8daa0d4652035a63!2s12296%20Mkunya%20St%2C%20Palm%20Ridge%2C%20Katlehong%2C%201488%2C%20South%20Africa!5e1!3m2!1sen!2snl!4v1785223421025!5m2!1sen!2snl"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
+                referrerPolicy="strict-origin-when-cross-origin"
                 title="School Location"
               />
             </div>
