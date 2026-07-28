@@ -24,7 +24,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-bold font-poppins text-gray-800">Our Address</h3>
-                  <p className="text-gray-600 text-sm">12296 Mkunya Street<br />Palmridge Ext 7<br />Palmridge 1458</p>
+                  <p className="text-gray-600 text-sm">12302 Mkhunya Street<br />Palmridge Ext 7<br />Palmridge 1458</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -60,7 +60,7 @@ export default function ContactSection() {
           <AnimatedSection direction="right">
             <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-100 h-[300px] lg:h-full min-h-[300px]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2722.0981496204186!2d28.15418467421183!3d-26.403258672108244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e951d08671d5e85%3A0x8daa0d4652035a63!2s12296%20Mkunya%20St%2C%20Palm%20Ridge%2C%20Katlehong%2C%201488%2C%20South%20Africa!5e1!3m2!1sen!2snl!4v1785223421025!5m2!1sen!2snl"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1361.053044204746!2d28.1567318!3d-26.4029221!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e951d087af290ad%3A0xbc505de5a9f5deca!2s12302%20Mkunya%20St%2C%20Palm%20Ridge%2C%20Katlehong%2C%201488!5e1!3m2!1sen!2sza!4v1785224145738!5m2!1sen!2sza"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
