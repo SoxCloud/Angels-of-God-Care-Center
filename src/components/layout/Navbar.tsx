@@ -7,7 +7,6 @@ import logoSrc from '../../assets/images/gallery/logo.jpg'
 const navLinks = [
   { path: '/', label: 'Home' },
   { path: '/gallery', label: 'Gallery' },
-  { path: '/apply', label: 'Apply' },
 ]
 
 export default function Navbar() {
