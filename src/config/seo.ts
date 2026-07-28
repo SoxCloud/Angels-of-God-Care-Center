@@ -5,14 +5,14 @@ export const SITE = {
   email: 'shabalalalungile47@gmail.com',
   phone: '+27 83 846 0529',
   address: {
-    street: '12302 Mkhunya Street',
+    street: '12296 Mkunya Street',
     suburb: 'Palmridge Ext 7',
     city: 'Palmridge',
     postal: '1458',
   },
   geo: {
-    latitude: -26.3,
-    longitude: 28.1,
+    latitude: -26.4032635,
+    longitude: 28.1567596,
   },
   hours: 'Mo-Fr 06:30-16:00',
   description:
